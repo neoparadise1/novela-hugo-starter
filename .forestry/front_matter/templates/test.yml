@@ -1,4 +1,24 @@
 ---
 label: Test
 hide_body: false
-fields: []
+fields:
+- name: das_ist_ein_test
+  type: boolean
+  label: Das ist ein Test
+  description: Testttt
+- name: hier_wird_ein_foto_rein_geladen
+  type: file
+  config:
+    maxSize: 64
+  label: Hier wird ein Foto rein geladen
+  description: Foro
+- name: on_mass_text
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: On mass text
+  description: test text
